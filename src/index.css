@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #FFA700;
+    --color-primary-hover: #E59600;
+    --color-secondary: #000000;
+    --color-secondary-light: #1A1A1A;
+    --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+    body {
+        @apply bg-white text-slate-900 font-sans;
+    }
+}
